@@ -1,4 +1,5 @@
-source 'https://rubygems.org'
+# source 'https://rubygems.org'
+source 'http://ruby.taobao.org'
 
 gem 'rails', '3.2.8'
 
@@ -7,6 +8,8 @@ gem 'rails', '3.2.8'
 
 gem 'sqlite3'
 gem 'pg'
+
+gem 'anjlab-bootstrap-rails', '>= 2.2', :require => 'bootstrap-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.
